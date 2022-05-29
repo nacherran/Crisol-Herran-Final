@@ -1,0 +1,43 @@
+@import "_variables";
+@import "_mixins";
+@import "_productos";
+@import "_boton";
+@import "_footer"; 
+@import "_tarjetas";
+
+.bg-titulo{
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+body{
+    background-color: $colorPrimario;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    .container-fluid{
+        background-color: $colorSecundario;
+        font-size: 20px;
+    }
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+
+p{
+    font-size: 18px;
+}
+.somos{
+    font-size: 26px;
+}
